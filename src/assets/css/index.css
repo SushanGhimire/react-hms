@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+.button{
+    @apply bg-text text-white px-8 py-4 font-rubik  text-lg hover:bg-text2 transition-all focus:outline-none;
+}
+@tailwind utilities;
