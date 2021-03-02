@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import room1 from "../../assets/img/hotelroom1.jpg";
 const RecentBlog = () => {
   const blogs = [
