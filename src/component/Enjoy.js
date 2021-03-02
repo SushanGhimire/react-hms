@@ -26,7 +26,7 @@ const Enjoy = () => {
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <img src={smallImage} alt="" />
+        <img src={smallImage} className="w-full h-full object-cover" alt="" />
       </div>
     </div>
   );
