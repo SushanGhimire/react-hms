@@ -7,11 +7,7 @@ const FeatureRoom = () => {
       <div className="text-sm text-center font-semibold font-rubik text-gray-400 tracking-widest">
         OUR LUXURY ROOMS
       </div>
-      <div
-        className="font-playfair text-center text-4xl md:text-5xl"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
+      <div className="font-playfair text-center text-4xl md:text-5xl">
         Featured Rooms
       </div>
 

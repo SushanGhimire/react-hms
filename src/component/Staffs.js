@@ -1,28 +1,24 @@
-// import { useState } from "react";
-import room1 from "../../assets/img/hotelroom1.jpg";
-import SingleBlog from "./SingleBlog";
-const RecentBlog = () => {
-  const blogs = [
+import profile from "../assets/img/profile.jpg";
+import SingleBlog from "./blogs/SingleBlog";
+const Staffs = () => {
+  const staffs = [
     {
-      type: "ROOMS",
-      title: "New Rooms",
-      src: room1,
+      type: "STAFF",
+      name: "Michelle Aguilar",
+      src: profile,
       id: 1,
-      aos: "fade-right",
     },
     {
-      type: "NEWS",
-      title: "New Staff Added",
-      src: room1,
+      type: "STAFF",
+      name: "Chris Standworth",
+      src: profile,
       id: 2,
-      aos: "fade-up",
     },
     {
-      type: "NEW ROOMS",
-      title: "Big Rooms For All",
-      src: room1,
+      type: "STAFF",
+      name: "Rob McDonald",
+      src: profile,
       id: 3,
-      aos: "fade-left",
     },
   ];
   return (
@@ -38,12 +34,13 @@ const RecentBlog = () => {
         Our Recent Blog
       </div>
       <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 p-5 lg:px-20">
-        {blogs.map((blog) => (
+        {staffs.map((staff) => (
           <SingleBlog
-            key={blog.id}
-            id={blog.id}
-            src={blog.src}
-            title={blog.title}
+            key={staff.id}
+            id={staff.id}
+            src={staff.src}
+            type={staff.type}
+            title={staff.name}
           />
         ))}
       </div>
@@ -51,4 +48,4 @@ const RecentBlog = () => {
   );
 };
 
-export default RecentBlog;
+export default Staffs;

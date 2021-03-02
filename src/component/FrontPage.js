@@ -1,4 +1,4 @@
-const FrontPage = () => {
+let FrontPage = ({ title, button,subTitle }) => {
   return (
     <div className="w-full h-full flex relative">
       <div className="w-full h-full flex flex-col justify-center items-center bg-black bg-opacity-40 space-y-4">
@@ -8,7 +8,7 @@ const FrontPage = () => {
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1000"
         >
-          Welcome To Our Luxury Rooms
+          {title}
         </div>
         <div
           className="font-rubik text-xl text-center md:text-3xl font-medium text-white"
@@ -16,10 +16,10 @@ const FrontPage = () => {
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1300"
         >
-          Discover our world's #1 Luxury Room For VIP.
+         {subTitle}
         </div>
         <button
-          className="button"
+          className={`button ${button}`}
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1800"

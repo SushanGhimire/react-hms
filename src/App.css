@@ -1,0 +1,6 @@
+.list{
+    display: none;
+}
+.menu:hover + .list{
+    display: block;
+}
