@@ -7,18 +7,21 @@ const RecentBlog = () => {
       title: "New Rooms",
       src: room1,
       id: 1,
+      aos: "fade-right",
     },
     {
       type: "NEWS",
       title: "New Staff Added",
       src: room1,
       id: 2,
+      aos: "fade-up",
     },
     {
       type: "NEW ROOMS",
       title: "Big Rooms For All",
       src: room1,
       id: 3,
+      aos: "fade-left",
     },
   ];
   return (
@@ -44,6 +47,8 @@ const RecentBlog = () => {
             v-for="(blog, index) in blogs"
             data-aos-duration="1000"
             key={blog.id}
+            data-aos={blog.aos}
+            data-aos-duration="1000"
           >
             <div className="w-full bg-white border border-gray-300 flex flex-col">
               <div>
