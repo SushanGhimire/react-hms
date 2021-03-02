@@ -2,11 +2,7 @@ import smallImage from "../assets/img/hotelEnjoy.jpg";
 const Enjoy = () => {
   return (
     <div className="w-full md:flex md:space-x-4 md:pl-20 mt-20">
-      <div
-        className="flex flex-col text-center items-center justify-center space-y-4 px-5 md:pr-10"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-      >
+      <div className="flex flex-col text-center items-center justify-center space-y-4 px-5 md:pr-10">
         <div className="text-sm font-semibold px-5 font-rubik text-gray-400 tracking-widest">
           STAY WITH OUR LUXURY ROOMS
         </div>
@@ -21,11 +17,7 @@ const Enjoy = () => {
         </div>
         <button className="button">MORE ABOUT US</button>
       </div>
-      <div
-        className="mt-5 md:mt-0"
-        data-aos="fade-left"
-        data-aos-duration="1000"
-      >
+      <div className="mt-5 md:mt-0">
         <img src={smallImage} className="w-full h-full object-cover" alt="" />
       </div>
     </div>

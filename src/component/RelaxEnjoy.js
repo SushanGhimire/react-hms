@@ -9,18 +9,10 @@ const RelaxEnjoy = () => {
         }}
       >
         <div className="w-full h-full flex flex-col justify-center items-center bg-black bg-opacity-40 space-y-4">
-          <div
-            className="font-playfair text-3xl md:text-5xl font-medium text-white text-center"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
+          <div className="font-playfair text-3xl md:text-5xl font-medium text-white text-center">
             Relax and Enjoy your Holiday
           </div>
-          <div
-            className="font-rubik text-lg text-center md:text-xl font-medium text-white px-5 md:px-40"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-          >
+          <div className="font-rubik text-lg text-center md:text-xl font-medium text-white px-5 md:px-40">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
             quidem tempore expedita facere facilis, dolores!
           </div>

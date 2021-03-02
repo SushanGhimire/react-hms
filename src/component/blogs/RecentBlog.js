@@ -33,11 +33,7 @@ const RecentBlog = () => {
       >
         OUR BLOG
       </div>
-      <div
-        className="font-playfair text-center text-4xl md:text-5xl"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-      >
+      <div className="font-playfair text-center text-4xl md:text-5xl">
         Our Recent Blog
       </div>
       <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 p-5 lg:px-20">
@@ -47,8 +43,6 @@ const RecentBlog = () => {
             v-for="(blog, index) in blogs"
             data-aos-duration="1000"
             key={blog.id}
-            data-aos={blog.aos}
-            data-aos-duration="1000"
           >
             <div className="w-full bg-white border border-gray-300 flex flex-col">
               <div>
