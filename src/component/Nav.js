@@ -115,7 +115,7 @@ const Nav = () => {
           <li className="list-none mt-4 md:mt-0">
             <Link
               to="/booknow"
-              className="border-2 mt-2 md:mt-0 border-white py-3 px-5"
+              className="border-2 mt-2 md:mt-0 border-white py-3 px-5 hover:bg-text  transition-all duration-300"
             >
               Book Now
             </Link>

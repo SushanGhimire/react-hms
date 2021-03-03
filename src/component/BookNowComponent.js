@@ -103,7 +103,7 @@ const BookNowComponent = () => {
           ></textarea>
         </div>
         <div>
-          <button className="button py-2">SEND MESSAGE</button>
+          <button className="button py-4 px-8 text-sm">SEND MESSAGE</button>
         </div>
       </div>
       {/* image  */}
