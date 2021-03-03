@@ -97,18 +97,29 @@ const Nav = () => {
               </ul>
             </div>
           </div>
-          <Link to="/blogs" className="mt-2 md:mt-0 cursor-pointer">
-            Blog
-          </Link>
-          <Link to="/about" className="mt-2 md:mt-0 cursor-pointer">
-            About
-          </Link>
-          <Link to="/contact" className="mt-2 md:mt-0 cursor-pointer">
-            Contact
-          </Link>
-          <div className="border-2 mt-2 md:mt-0 border-white py-3 px-5">
-            Book Now
-          </div>
+          <li className="list-none">
+            <Link to="/blogs" className="mt-2 md:mt-0 cursor-pointer">
+              Blog
+            </Link>
+          </li>
+          <li className="list-none">
+            <Link to="/about" className="mt-2 md:mt-0 cursor-pointer">
+              About
+            </Link>
+          </li>
+          <li className="list-none">
+            <Link to="/contact" className="mt-2 md:mt-0 cursor-pointer">
+              Contact
+            </Link>
+          </li>
+          <li className="list-none mt-4 md:mt-0">
+            <Link
+              to="/booknow"
+              className="border-2 mt-2 md:mt-0 border-white py-3 px-5"
+            >
+              Book Now
+            </Link>
+          </li>
         </div>
       </div>
     </div>

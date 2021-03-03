@@ -9,6 +9,7 @@ import deluxRoom from "./component/room/deluxRoom";
 import Blog from "./component/blogs/Blog";
 import About from "./component/About";
 import Contact from "./component/Contact";
+import BookNow from "./component/BookNow";
 AOS.init();
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/blogs" component={Blog} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/booknow" component={BookNow} />
         </Switch>
       </div>
     </Router>
