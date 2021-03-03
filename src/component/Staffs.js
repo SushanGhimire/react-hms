@@ -23,15 +23,11 @@ const Staffs = () => {
   ];
   return (
     <div className="w-full p-5 lg:p-20 flex flex-col bg-gray-100 space-y-5">
-      <div
-        className="text-sm text-center font-semibold font-rubik text-gray-400 tracking-widest"
-        data-aos="fade-left"
-        data-aos-duration="1000"
-      >
-        OUR BLOG
+      <div className="text-sm text-center font-semibold font-rubik text-gray-400 tracking-widest">
+        OUR KIND STAFF
       </div>
       <div className="font-playfair text-center text-4xl md:text-5xl">
-        Our Recent Blog
+        Our Staff
       </div>
       <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 p-5 lg:px-20">
         {staffs.map((staff) => (

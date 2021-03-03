@@ -103,7 +103,9 @@ const Nav = () => {
           <Link to="/about" className="mt-2 md:mt-0 cursor-pointer">
             About
           </Link>
-          <div className="mt-2 md:mt-0 cursor-pointer">Contact</div>
+          <Link to="/contact" className="mt-2 md:mt-0 cursor-pointer">
+            Contact
+          </Link>
           <div className="border-2 mt-2 md:mt-0 border-white py-3 px-5">
             Book Now
           </div>

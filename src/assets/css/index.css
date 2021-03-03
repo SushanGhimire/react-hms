@@ -6,4 +6,7 @@
 .button{
     @apply bg-text text-white px-8 py-4 font-rubik  md:text-lg hover:bg-text2 transition-all focus:outline-none;
 }
+.input-style{
+    @apply border w-full py-2 px-5 border-gray-300 focus:outline-none focus:border-text text-gray-600 ;
+}
 @tailwind utilities;
