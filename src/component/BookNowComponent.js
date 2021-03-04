@@ -7,7 +7,7 @@ const BookNowComponent = () => {
         <div className="w-full  font-playfair text-2xl md:text-4xl pb-10">
           Reservation Form
         </div>
-        <div className="w-full md:flex md:space-x-3 ">
+        <div className="w-full md:flex space-y-4 md:space-y-0 mt-4  md:mt-0 md:space-x-3 ">
           <div className="relative space-y-3">
             <label htmlFor="" className="text-gray-600">
               Arrival Date
@@ -54,7 +54,7 @@ const BookNowComponent = () => {
           </div>
         </div>
         {/* guest  */}
-        <div className="w-full md:flex md:space-x-3 0">
+        <div className="w-full md:flex space-y-4 md:space-y-0 mt-4  md:mt-0 md:space-x-3 0">
           <div className="w-full space-y-3">
             <label htmlFor="" className="text-gray-600">
               Room
@@ -84,13 +84,13 @@ const BookNowComponent = () => {
             </select>
           </div>
         </div>
-        <div className="w-full space-y-3">
+        <div className="w-full space-y-3 mt-4 md:mt-0">
           <label htmlFor="" className="text-gray-600">
             Email
           </label>
           <input type="text" className=" input-style" />
         </div>
-        <div className="w-full space-y-3">
+        <div className="w-full space-y-3 mt-4 md:mt-0">
           <label htmlFor="" className="text-gray-600">
             Write a Note
           </label>
