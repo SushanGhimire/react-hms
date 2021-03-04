@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 let FrontPage = ({ title, button, subTitle }) => {
   return (
     <div className="w-full h-screen flex overflow-hidden relative">
@@ -18,14 +20,15 @@ let FrontPage = ({ title, button, subTitle }) => {
         >
           {subTitle}
         </div>
-        <button
+        <Link
+          to="/booknow"
           className={`button ${button}`}
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1800"
         >
           BOOK NOW
-        </button>
+        </Link>
       </div>
     </div>
   );
